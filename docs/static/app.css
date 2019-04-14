@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Robotox"; 
+    src: url("static/fonts/roboto-v19-latin-regular.woff");
+}
+
+@font-face {
+    font-family: "RobotoPerson"; 
+    src: url("static/fonts/roboto-v19-latin-regular_person.woff");
+}
+
+body {
+    margin: 5%;
+    margin-top: 5%;
+    color:#353535;
+}
+
+.robotox { font-family: "Robotox"; }
+.person { font-family: "RobotoPerson"; }
+
+
+
+.liga{
+    font-variant-ligatures:common-ligatures;
+    -webkit-font-feature-settings:"liga" 1, "dlig" 1;
+    -moz-font-feature-settings:"liga" 1, "dlig" 1;
+    -ms-font-feature-settings:"liga" 1, "dlig" 1;
+    font-feature-settings:"liga" 1, "dlig" 1;
+}
+
+textarea {
+    border: none;
+    width:100%;
+    height:70vh;
+    color:#200e38;
+}
+
+.wordlist {
+    font-size:80%;
+}
