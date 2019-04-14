@@ -15,12 +15,14 @@ if __name__ == "__main__":
     #f_emoji = 'data/ttx/SansBullshitSans.ttx'
 
     ligatures = { }
+
+    # They typically look like this
     glyph_additions = {
         'u1F386' : "fireworks",
     }
 
-    #with open(f_replace_tokens) as FIN:
-    #    glyph_additions = json.loads(FIN.read())
+    with open(f_replace_tokens) as FIN:
+        glyph_additions = json.loads(FIN.read())
 
     # Simple check on the glyph additions (since it takes so long to load!)
     cx = collections.Counter(glyph_additions.values()).most_common(10)
@@ -40,7 +42,6 @@ if __name__ == "__main__":
     for key, name in tqdm(glyph_additions.items()):
         g = F1.getGlyph(name=key)
         glyph_name = F0.add_glyph(g)
-
         ligatures[name] = glyph_name
 
     print("LIGATRUES", ligatures)
