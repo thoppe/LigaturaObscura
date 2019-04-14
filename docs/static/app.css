@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Robotox"; 
-    src: url("static/fonts/roboto-v19-latin-regular.woff");
+    src: url("fonts/roboto-v19-latin-regular.woff");
 }
 
 @font-face {
     font-family: "RobotoPerson"; 
-    src: url("static/fonts/roboto-v19-latin-regular_person.woff");
+    src: url("fonts/roboto-v19-latin-regular_person.woff");
 }
 
 body {
@@ -27,6 +27,12 @@ body {
     font-feature-settings:"liga" 1, "dlig" 1;
 }
 
+.ligaturePic {
+    width:20%;
+    
+}
+
+
 textarea {
     border: none;
     width:100%;
@@ -35,5 +41,5 @@ textarea {
 }
 
 .wordlist {
-    font-size:80%;
+    font-size:100%;
 }
