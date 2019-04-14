@@ -1,2 +1,3 @@
 fonttools
 bs4
+tqdm

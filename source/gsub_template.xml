@@ -1,0 +1,36 @@
+<GSUB>
+  <Version value="0x00010000"/>
+
+    <ScriptList>
+      <ScriptRecord index="0">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="0"/>
+            <FeatureIndex index="0" value="0"/>
+          </DefaultLangSys>
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    
+    
+    <FeatureList>
+      <FeatureRecord index="0">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+
+    
+    <LookupList>
+      <Lookup index="0">
+        <LookupType value="4"/>
+	<LookupFlag value="0"/>
+        <LigatureSubst index="0" Format="1">
+        </LigatureSubst>
+      </Lookup>
+    </LookupList>
+  
+</GSUB>
