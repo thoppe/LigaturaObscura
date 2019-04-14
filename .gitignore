@@ -1,0 +1,7 @@
+*.pyc
+*~
+\#*
+
+
+# Generated data directories
+data/ttx
