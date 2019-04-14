@@ -1,0 +1,7 @@
+I'm a nerd. Not the microscope or telescope nerd, but the artist kind. I also think fonts are the bomb. What your eyes are seeing isn't some tired javascript. Nope, this magic is a FONT.
+
+Maybe you're confused or frowning? That's OK. Look at the HTML, CSS. Javascript? LOL not in this house.
+
+The secret is "ligatures". Look at how "fi" gets transformed. 
+
+You can do that with ANYTHING. From a skull and crossbones to surfers with lipstick. The original text remains too. Watch me paste, and like a ghost the emoji are gone.
