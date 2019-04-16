@@ -10,7 +10,7 @@ if __name__ == "__main__":
     # These have to be done by hand for now
     glyph_additions = {
         "uniE900" : "pupper",
-        "uniE901" : "Ramsey",
+        "uniE901" : "Ramsay",
         "uniE902" : "Ariana",
     }
 
